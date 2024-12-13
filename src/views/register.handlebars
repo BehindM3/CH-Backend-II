@@ -1,0 +1,27 @@
+<main class="register-page">
+    <article class="register-container">
+        <h2>Registro</h2>
+        <form method="post" action="/api/register">
+            <fieldset class="registerInput">
+                <label for="firstName">Nombre</label>
+                <input type="text" name="first_name" id="firstName" >
+            </fieldset>
+            <fieldset class="registerInput">
+                <label for="lastName">Apellido</label>
+                <input type="text" name="last_name" id="lastName" >
+            </fieldset>
+            <fieldset class="registerInput">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" >
+            </fieldset>
+            <fieldset class="registerInput">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" >
+            </fieldset>
+            <fieldset class="buttonsSection">
+                <button type="reset">Cancelar</button>
+                <button type="submit">Registrar</button>
+            </fieldset>
+        </form>
+    </article>
+</main>

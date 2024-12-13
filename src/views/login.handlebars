@@ -1,0 +1,25 @@
+<main class="main-login">
+    <article class="loginBox">
+        <h2>Log-In</h2>
+        <form method="post" action="/api/login">
+            <fieldset>
+                <div class="inputMail">
+                    <input type="text" placeholder="prueba@gmail.com" name="email" >
+                </div>
+                <div class="inputPassword">
+                    <input type="password" placeholder="********" name="password" >
+                </div>
+            </fieldset>
+            <fieldset class="buttons">
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+        <footer>
+            <button onclick="location.href='/register'">
+                Registrarse
+            </button>    
+        </footer>
+
+    </article>
+</main>
